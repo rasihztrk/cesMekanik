@@ -1,0 +1,798 @@
+.mainHoodArea {
+  background-image: url("../images/bannerTop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 193px;
+}
+
+.mainHoodArea .mainHood {
+  font-family: "Rajdhani-SB";
+  font-size: 36px;
+  padding-top: 30px;
+  margin: 0px !important;
+}
+
+.mainHoodArea .textArea {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin: 0px !important;
+  padding-bottom: 20px;
+}
+
+.mainHoodArea .textArea p {
+  margin: 0px !important;
+}
+
+.mainHoodArea .textArea p:last-child {
+  color: #089ad8;
+}
+
+.mainHoodArea .textArea img {
+  width: 10px;
+  height: 12px;
+}
+
+.camCardArea .HoodTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin: 50px 0px;
+}
+
+.camCardArea .HoodTwo p {
+  font-family: "Rajdhani-B";
+  font-size: 36px;
+  margin-bottom: 0px !important;
+}
+
+.camCardArea .HoodTwo hr {
+  margin: 2rem 0rem;
+  width: 69%;
+}
+
+.camCardArea .mT100px {
+  margin-top: 100px;
+}
+
+.camCardArea .mb100px {
+  margin-bottom: 100px;
+}
+
+.camCardArea .col-12 .cardArea {
+  padding-bottom: 0px !important;
+  border: 1px solid #dddddd;
+}
+
+.camCardArea .col-12 .cardArea .cardImg {
+  padding: 20px;
+}
+
+.camCardArea .col-12 .cardArea .cardText {
+  border: 1px solid #dddddd;
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.camCardArea .col-12 .cardArea .cardText p {
+  font-size: 20px;
+  font-family: "Rajdhani-M";
+  margin: 0px !important;
+}
+
+.camCardArea .col-12 .cardArea .cardText button {
+  font-family: "Rajdhani-M";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #089ad8;
+  padding: 15px 30px;
+  padding-left: 15px;
+  width: 140px;
+  color: white;
+  border: 0px;
+  outline: 0px;
+  text-align: start;
+  background-image: url("../images/icon/vectorRW.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 110px;
+}
+
+.campaingsDetail .camDetailImg {
+  width: 100%;
+  height: auto;
+}
+
+.campaingsDetail .camDetailTest {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.campaingsDetail .camDetailTest p {
+  font-size: 24px;
+  font-family: "Rajdhani-L";
+}
+
+.aboutUs .aboutUsText {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.aboutUs .aboutUsText p:first-child {
+  font-size: 32px;
+  font-family: "Rajdhani-L";
+}
+
+.aboutUs .aboutUsText p:nth-child(2) {
+  font-size: 20px;
+  font-family: "Rajdhani-L";
+}
+
+.booster {
+  margin-bottom: 100px;
+}
+
+.booster .boosterCardArea {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.booster .boosterCardArea .boosterCard {
+  border: 1px solid #dddddd;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.booster .boosterCardArea .boosterCard .boosterImg img {
+  width: 200px;
+  height: auto;
+}
+
+.booster .boosterCardArea .boosterCard .boosterTextButton p {
+  margin-top: 10px;
+  color: #333333;
+  font-size: 24px;
+  font-family: "Rajdhani-B";
+}
+
+.booster .boosterCardArea .boosterCard .boosterTextButton button {
+  background-color: #089ad8;
+  color: white;
+  background-image: url("../images/icon/download.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 0px;
+  padding-right: 30px;
+  padding-left: 50px;
+  background-position-x: 20px;
+  background-size: 20px;
+  outline: 0px;
+  border: 0px;
+}
+
+.references {
+  margin-bottom: 100px;
+}
+
+.references .container .row {
+  row-gap: 40px;
+}
+
+.references .container .row .referencesCard {
+  border: 1px solid #dddddd;
+  padding: 20px;
+}
+
+.references .container .row .referencesCard .referancesImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.references .container .row .referencesCard .referancesText p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: "Rajdhani-M";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.priceList {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.priceList .priceListArea {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.priceList .priceListArea .priceListItem {
+  border: 1px solid #dddddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.priceList .priceListArea .priceListItem .pItemImg img {
+  width: 193px;
+  height: auto;
+}
+
+.priceList .priceListArea .priceListItem .priceListTextbutton p {
+  margin-top: 10px;
+  color: #333333;
+  font-size: 24px;
+  font-family: "Rajdhani-B";
+  margin-bottom: 10px;
+}
+
+.priceList .priceListArea .priceListItem .priceListTextbutton button {
+  background-color: #089ad8;
+  color: white;
+  padding: 10px 0px;
+  padding-right: 24px;
+  padding-left: 50px;
+  background-image: url("../images/icon/download.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 20px;
+  background-size: 20px;
+  outline: 0px;
+  border: 0px;
+}
+
+.contactUsSection .container-fluid .informationArea {
+  border: 1px solid #e5e5e5;
+  padding: 50px 50px;
+  margin-top: -150px;
+  background-color: white;
+  position: relative;
+}
+
+.contactUsSection .container-fluid .informationArea .contactImgText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.contactUsSection .container-fluid .informationArea .contactImgText img {
+  width: 30px;
+  height: auto;
+}
+
+.contactUsSection .container-fluid .informationArea .contactImgText .informationHood {
+  margin-bottom: 0px !important;
+  font-size: 24px;
+  font-family: "Rajdhani-B";
+  color: #5d5d5d !important;
+}
+
+.contactUsSection .container-fluid .informationArea .contactImgText .informationAdrress {
+  font-size: 20px;
+  font-family: "Rajdhani-SB";
+  color: #5d5d5d !important;
+}
+
+.contactUsSection .container-fluid .informationArea .contactImgText a {
+  text-decoration: underline;
+  color: #5d5d5d !important;
+}
+
+.contactUsForm .row {
+  margin-top: 10px;
+  margin-bottom: 150px;
+  border: 1px solid #dddddd;
+}
+
+.contactUsForm .row .formhood p {
+  text-align: center;
+  font-size: 40px;
+  color: #5d5d5d;
+  font-family: "Rajdhani-B";
+  padding-top: 30px;
+}
+
+.contactUsForm .row .cForm {
+  text-align: -webkit-center;
+  padding: 0px 100px;
+  padding-bottom: 50px;
+}
+
+.contactUsForm .row .cForm input {
+  color: #333333;
+}
+
+.contactUsForm .row .cForm input::-webkit-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+.contactUsForm .row .cForm input:-ms-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+.contactUsForm .row .cForm input::-ms-input-placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+.contactUsForm .row .cForm input::placeholder {
+  color: #333333;
+  opacity: 1;
+}
+
+.contactUsForm .row .cForm input:-ms-input-placeholder {
+  color: #333333;
+}
+
+.contactUsForm .row .cForm input::-ms-input-placeholder {
+  color: #333333;
+}
+
+.contactUsForm .row .cForm .nameMail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.contactUsForm .row .cForm .tel {
+  margin-bottom: 20px;
+}
+
+.contactUsForm .row .cForm button {
+  background-color: #089ad8;
+  color: white;
+  height: 47px;
+  width: 170px;
+  outline: 0px;
+  border: 0px;
+  margin-top: 30px;
+}
+
+.loginHeader .line {
+  height: 50px;
+  background-color: #089ad8;
+  height: 50px;
+}
+
+.login {
+  background-image: url("../images/loginHood.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.login .logoArea img {
+  height: 111px;
+  width: 246px;
+  margin: 30px 0px;
+}
+
+.login .nav .btnOne {
+  background-color: #089ad8;
+  color: white;
+  font-family: "Rajdhani-B";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 64px;
+  padding: 0px 63px;
+}
+
+.login .nav .btnTwo {
+  background-color: #dddddd;
+  color: black;
+  font-family: "Rajdhani-B";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 64px;
+  padding: 0px 63px;
+}
+
+.login .tab-content {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+
+.login .tab-content .paneOne .form .inputText p {
+  text-align: center;
+  font-family: "Rajdhani-B";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 64px;
+}
+
+.login .tab-content .paneOne .form .inputArea {
+  text-align: center;
+}
+
+.login .tab-content .paneOne .form .inputArea p {
+  text-align: center;
+}
+
+.login .tab-content .paneOne .form .inputArea input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.login .tab-content .paneOne .form .checkboxare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login .tab-content .paneOne .form .checkboxare .inputP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.login .tab-content .paneOne .form .checkboxare .inputP input {
+  width: 25px;
+  height: 25px;
+}
+
+.login .tab-content .paneOne .form .checkboxare .inputP p {
+  margin-bottom: 0px;
+  font-family: "Rajdhani-L";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 0px !important;
+}
+
+.login .tab-content .paneOne .form .checkboxare .forgetPassword p {
+  font-family: "Rajdhani-L";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  mix-blend-mode: normal;
+  text-decoration: none !important;
+  margin-bottom: 0px !important;
+}
+
+.login .tab-content .paneOne .form button {
+  font-family: "Rajdhani-B";
+  background: #089ad8;
+  color: white;
+  width: 100%;
+  border: 0px;
+  outline: 0px;
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+.login .tab-content .paneTwo .formTwo .inputText p {
+  text-align: center;
+  font-family: "Rajdhani-B";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 64px;
+}
+
+.login .tab-content .paneTwo .formTwo .inputAreaTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.login .tab-content .paneTwo .formTwo .inputAreaTwo input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-family: "Rajdhani-L";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.login .tab-content .paneTwo .formTwo .adressArea {
+  margin-bottom: 10px;
+}
+
+.login .tab-content .paneTwo .formTwo .adressArea label {
+  font-family: "Rajdhani-L";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.login .tab-content .paneTwo .formTwo .checkboxare .inputP {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .tab-content .paneTwo .formTwo .checkboxare .inputP input {
+  width: 25px;
+  height: 25px;
+}
+
+.login .tab-content .paneTwo .formTwo .checkboxare .inputP p {
+  font-family: "Rajdhani-L";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 0px !important;
+}
+
+.login .tab-content .paneTwo .formTwo button {
+  font-family: "Rajdhani-B";
+  background: #089ad8;
+  color: white;
+  width: 100%;
+  border: 0px;
+  outline: 0px;
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+.login .tab-content .paneThree {
+  padding: 20px 0px;
+}
+
+.login .tab-content .paneThree .formThree .inputText p {
+  text-align: center;
+  font-family: "Rajdhani-B";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 64px;
+}
+
+.login .tab-content .paneThree .formThree .inputAreaTwo input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  font-family: "Rajdhani-L";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.login .tab-content .paneThree .formThree button {
+  font-family: "Rajdhani-B";
+  background: #089ad8;
+  color: white;
+  width: 100%;
+  border: 0px;
+  outline: 0px;
+  padding: 6px 5px;
+  margin: 10px 0px;
+}
+
+.owl-five {
+  position: relative;
+}
+
+.owl-five .owl-nav .owl-prev {
+  font-size: 0px !important;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/icon/vectorLoginPrev.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  left: 10px !important;
+  position: absolute !important;
+  top: 50%;
+  -webkit-transform: translateY(-50%) !important;
+          transform: translateY(-50%) !important;
+}
+
+.owl-five .owl-nav .owl-next {
+  font-size: 0px !important;
+  width: 50px !important;
+  height: 50px !important;
+  background-image: url("../images/icon/vectorLoginNext.png") !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  right: 10px !important;
+  position: absolute !important;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%) !important;
+          transform: translateY(-50%) !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  .camCardArea .HoodTwo hr {
+    width: 65% !important;
+  }
+  .booster .boosterCardArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+  .priceList .priceListArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .booster .boosterCardArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+  }
+  .camCardArea .HoodTwo hr {
+    width: 58% !important;
+  }
+  .priceList .priceListArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .booster .boosterCardArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+  }
+  .camCardArea .HoodTwo hr {
+    width: 44% !important;
+  }
+  .mainHoodArea {
+    margin-top: 94px;
+  }
+  .camCardArea .col-12 .cardArea .cardText button {
+    width: 130px !important;
+    background-position-x: 110px !important;
+  }
+  .priceList .priceListArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+  }
+  .login .logoArea {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .login .logoArea img {
+    width: 150px !important;
+    height: auto !important;
+  }
+  .login .nav .btnOne {
+    padding: 0px 34px !important;
+  }
+  .login .nav .btnTwo {
+    padding: 0px 34px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .booster .boosterCardArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .priceList .priceListArea {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .contactUsSection .container-fluid .informationArea {
+    border: 0px solid #e5e5e5 !important;
+    margin-top: 0px !important;
+    padding-left: 10px;
+    padding-right: 10px !important;
+  }
+  .contactUsSection .container-fluid .informationArea .contactImgText {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  .contactUsForm .row {
+    border: 0px solid #dddddd !important;
+  }
+  .cForm {
+    padding: 0px 20px !important;
+  }
+  .cForm .nameMail {
+    display: block !important;
+  }
+  .cForm .nameMail input:first-child {
+    margin-bottom: 20px;
+  }
+  .cForm button {
+    margin-bottom: 30px !important;
+  }
+  .login .nav .btnOne {
+    padding: 0px 34px !important;
+  }
+  .login .nav .btnTwo {
+    padding: 0px 34px !important;
+  }
+  .owl-five .owl-nav {
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+}
+/*# sourceMappingURL=subPages.css.map */
