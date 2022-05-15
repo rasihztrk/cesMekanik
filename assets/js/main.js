@@ -175,17 +175,20 @@ $(document).ready(function () {
       "border-top": "1px solid #e5e5e5",
     });
   });
-  screen.width
-  if (screen.width >= 992) {
+
+ 
     $(window).scroll(function (event) {
-      var scroll = $(window).scrollTop();
-      // Do something
-      console.log(scroll);
-      if (scroll >= "300") {
-        $(".navFirst").addClass("d-none");
-      } else if (scroll <= "300") {
-        $(".navFirst").removeClass("d-none");
+      if (window.innerWidth >= 992) {
+        var scroll = $(window).scrollTop();
+        if (scroll >= "300") {
+          $("header").stop().animate({ top: "-50px" }, 100);
+        } else if (scroll <= "300") {
+          $("header").stop().animate({ top: "0px" }, 100);
+        }
+      }else {
+        $("header").css("top", "0px");
       }
+
     });
-  }
+
 });
