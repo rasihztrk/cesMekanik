@@ -23,6 +23,10 @@
   src: url("../fonts/Rajdhani-SemiBold.woff2") format("opentype");
 }
 
+.menuActive {
+  border-bottom: 1px solid white;
+}
+
 body header {
   position: fixed;
   z-index: 999999;

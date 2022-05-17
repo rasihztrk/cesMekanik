@@ -2,7 +2,7 @@
   background-image: url("../images/bannerTop.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-top: 193px;
+  margin-top: 169px;
 }
 
 .mainHoodArea .mainHood {
@@ -682,6 +682,39 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .mainHoodArea {
+    background-image: url("../images/bannerTop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 205px;
+  }
+  .mainHoodArea .mainHood {
+    font-family: "Rajdhani-SB";
+    font-size: 36px;
+    padding-top: 30px;
+    margin: 0px !important;
+  }
+  .mainHoodArea .textArea {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    margin: 0px !important;
+    padding-bottom: 20px;
+  }
+  .mainHoodArea .textArea p {
+    margin: 0px !important;
+  }
+  .mainHoodArea .textArea p:last-child {
+    color: #089ad8;
+  }
+  .mainHoodArea .textArea img {
+    width: 10px;
+    height: 12px;
+  }
   .booster .boosterCardArea {
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
