@@ -1376,6 +1376,11 @@ body footer .container .row .socialCopyight .socialIcon img {
     width: 100% !important;
     display: -webkit-box !important;
     place-content: center !important;
+    display: block !important;
+    text-align: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
   footer .container .row .socialCopyight p {
     font-size: 16px;
@@ -1388,6 +1393,10 @@ body footer .container .row .socialCopyight .socialIcon img {
     display: -ms-flexbox;
     display: flex;
     gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
   }
   footer .container .row .socialCopyight .socialIcon img {
     width: 50px;
@@ -1465,9 +1474,6 @@ body footer .container .row .socialCopyight .socialIcon img {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
-}
-
-@media only screen and (max-width: 576px) {
   .owl-three .item {
     display: block;
     -webkit-box-pack: center;

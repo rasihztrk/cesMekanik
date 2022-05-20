@@ -1578,8 +1578,8 @@ body {
               text-align: center !important;
             }
             .triangleBlue {
-              height: 35px !important; 
-              width: 35px !important; 
+              height: 35px !important;
+              width: 35px !important;
             }
           }
         }
@@ -1790,6 +1790,9 @@ body {
           width: 100% !important;
           display: -webkit-box !important;
           place-content: center !important;
+          display: block !important;
+          text-align: center !important;
+          justify-content: center !important;
           p {
             font-size: 16px;
             color: white;
@@ -1799,6 +1802,8 @@ body {
           .socialIcon {
             display: flex;
             gap: 30px;
+            justify-content: center;
+            margin-top: 10px;
             img {
               width: 50px;
               height: 50px;
@@ -2036,9 +2041,7 @@ body {
       }
     }
   }
-}
 
-@media only screen and (max-width: 576px) {
   .owl-three {
     .item {
       display: block;
