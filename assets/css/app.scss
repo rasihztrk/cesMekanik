@@ -172,7 +172,7 @@ body {
               background-image: url("../images/icon/search.png");
               background-repeat: no-repeat;
               background-position: center;
-              background-position-x: 330px;
+              background-position-x: 90%;
               font-size: 18px;
               padding: 0px 20px;
               padding-right: 80px;
@@ -270,6 +270,14 @@ body {
                 margin-right: 10px;
                 font-size: 28px;
                 font-weight: 300;
+                position: relative;
+                span {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  height: 100%;
+                }
               }
               .owl-next {
                 &:hover {
@@ -282,6 +290,14 @@ body {
                 border: 1px solid #dddddd;
                 font-size: 28px;
                 font-weight: 300;
+                position: relative;
+                span {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  height: 100%;
+                }
               }
             }
           }
@@ -343,6 +359,14 @@ body {
                 margin-right: 10px;
                 font-size: 28px;
                 font-weight: 300;
+                position: relative;
+                span {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  height: 100%;
+                }
               }
               .owl-next {
                 &:hover {
@@ -355,6 +379,14 @@ body {
                 border: 1px solid #dddddd;
                 font-size: 28px;
                 font-weight: 300;
+                position: relative;
+                span {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  height: 100%;
+                }
               }
             }
           }
@@ -533,6 +565,9 @@ body {
               }
             }
           }
+          img {
+            height: 300px;
+          }
         }
       }
       .owl-nav {
@@ -551,6 +586,14 @@ body {
           margin-right: 10px;
           font-size: 28px;
           font-weight: 300;
+          position: relative;
+          span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+          }
         }
         .owl-next {
           &:hover {
@@ -563,6 +606,14 @@ body {
           border: 1px solid #dddddd;
           font-size: 28px;
           font-weight: 300;
+          position: relative;
+          span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+          }
         }
       }
     }
@@ -700,8 +751,8 @@ body {
             margin-bottom: 0px !important;
           }
           .socialIcon {
-            display: flex;
-            gap: 30px;
+            display: flex !important;
+            gap: 5px;
             img {
               width: 50px;
               height: 50px;
@@ -718,7 +769,6 @@ body {
 }
 
 .owl-carousel .owl-stage {
-
 }
 
 .owl-nav {
@@ -805,18 +855,17 @@ body {
       .secondArea {
         .iconArea {
           .logo {
-            width: 150px !important;
           }
         }
         .cardArea {
           .specialCard {
-            padding: 40px 10px !important;
+            padding: 20px 10px !important;
             .shopArea {
               img {
                 width: 14px !important;
               }
               p {
-                font-size: 12px !important;
+                font-size: 10px !important;
               }
             }
           }
@@ -842,7 +891,7 @@ body {
   }
 
   .sliderOneH {
-    margin-top: 206px !important;
+    margin-top: 163px !important;
     position: relative;
     .owl-carousel {
       .owl-stage-outer {
@@ -1714,6 +1763,69 @@ body {
         }
         .owl-next {
           &:hover {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    .navFirst {
+      .contactArea {
+        .mail {
+          img {
+          }
+          a {
+          }
+        }
+        .phoneLanguage {
+          .phone {
+            img {
+            }
+            a {
+            }
+          }
+          .language {
+            select {
+            }
+          }
+          .navbar-toggler {
+          }
+        }
+      }
+    }
+    .navSecond {
+      .secondArea {
+        .iconArea {
+          .logo {
+          }
+        }
+        .cardArea {
+          .specialCard {
+            .shopArea {
+              img {
+              }
+              p {
+              }
+            }
+          }
+          .specialCard:nth-child(2) {
+          }
+        }
+      }
+    }
+    nav {
+      .navbar-collapse {
+        ul {
+          li {
+            a {
+            }
+            input {
+              background-position-x: 95% !important;
+              width: 100% !important;
+            }
           }
         }
       }
