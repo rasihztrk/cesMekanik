@@ -28,7 +28,6 @@
   }
 }
 
-
 .camCardArea {
   .HoodTwo {
     display: flex;
@@ -677,7 +676,7 @@
     margin-top: 163px;
     .mainHood {
       font-family: "Rajdhani-SB";
-      font-size: 36px;
+      font-size: 26px;
       padding-top: 30px;
       margin: 0px !important;
     }
@@ -699,7 +698,7 @@
       }
     }
   }
-  
+
   .booster {
     .boosterCardArea {
       grid-template-rows: 1fr;
@@ -721,9 +720,15 @@
   .camCardArea {
     .HoodTwo {
       p {
+        font-size: 26px !important;
+        height: 100%;
       }
       hr {
-        width: 58% !important;
+        width: 72% !important;
+        margin: 1.2rem 0rem;
+      }
+      .specialW {
+        width: 69% !important;
       }
     }
 
@@ -791,7 +796,10 @@
       p {
       }
       hr {
-        width: 44% !important;
+        width: 58% !important;
+      }
+      .specialW {
+        width: 58% !important
       }
     }
 
@@ -1021,10 +1029,10 @@
         input {
           &::placeholder {
           }
-  
+
           &:-ms-input-placeholder {
           }
-  
+
           &::-ms-input-placeholder {
           }
         }

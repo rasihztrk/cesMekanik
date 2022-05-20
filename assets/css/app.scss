@@ -536,6 +536,7 @@ body {
         .nCard {
           border: 1px solid #dddddd;
           padding: 50px 34px;
+          margin: 1px;
           .textArea {
             .date {
               font-size: 12px;
@@ -566,7 +567,7 @@ body {
             }
           }
           img {
-            height: 300px;
+            height: 260px;
           }
         }
       }
@@ -1273,6 +1274,177 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .owl-four {
+    .item {
+      .nCard {
+        img {
+        }
+        .textArea {
+          .date {
+          }
+          .goNews {
+            .newsHoodTwo {
+            }
+            .triangleBlue {
+            }
+          }
+        }
+      }
+    }
+    .owl-nav {
+      top: -74px !important;
+
+      .owl-prev {
+        &:hover {
+        }
+      }
+      .owl-next {
+        &:hover {
+        }
+      }
+    }
+  }
+
+  .priceInformation {
+    .textAreaPHood {
+      .pIHood {
+        font-size: 20px !important;
+        margin-bottom: 14px !important;
+      }
+    }
+    .pICard {
+      img {
+      }
+      .imgTextArea {
+        .date {
+          p {
+          }
+        }
+        img {
+        }
+      }
+    }
+  }
+
+  .news {
+    .nHood {
+      font-size: 20px !important;
+      margin-bottom: 30px !important;
+    }
+    .owl-four {
+      .item {
+        .nCard {
+          margin: 10px;
+          .textArea {
+            .date {
+            }
+            .goNews {
+              .newsHoodTwo {
+              }
+              .triangleBlue {
+              }
+            }
+          }
+        }
+      }
+      .owl-nav {
+        .owl-prev {
+          &:hover {
+          }
+        }
+        .owl-next {
+          &:hover {
+          }
+        }
+      }
+    }
+  }
+
+  .sliderThree {
+    .container {
+      .row {
+        .col-12 {
+          .owlTwoHood {
+            p {
+              font-size: 20px !important;
+            }
+          }
+        }
+        .col-12 {
+          .owl-three {
+            position: relative !important ;
+            .item {
+              .cardspecial {
+                img {
+                }
+                .cardTExt {
+                  p {
+                  }
+                }
+              }
+            }
+            .owl-nav {
+              .owl-prev {
+                position: absolute !important;
+                top: 40%;
+                transform: translateX(-50%);
+                left: -84px !important;
+                &:hover {
+                }
+                span {
+                }
+              }
+              .owl-next {
+                position: absolute !important;
+                top: 50%;
+                transform: translateX(-50%);
+                top: 40% !important;
+                right: -26px !important;
+                &:hover {
+                }
+                span {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sliderTwo {
+    .container {
+      .row {
+        .col-12 {
+          .owlTwoHood {
+            p {
+              font-size: 20px !important;
+            }
+          }
+        }
+        .col-12 {
+          .owl-two {
+            .owl-stage {
+              display {
+              }
+            }
+            .owl-nav {
+              top: -90px !important;
+              .owl-prev {
+                &:hover {
+                }
+              }
+              .owl-next {
+                &:hover {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   .aboutUs {
     .auTextArea {
       .asLText {
@@ -1388,6 +1560,100 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  .owl-four {
+    .item {
+      .nCard {
+        margin: 0px 50px !important;
+        img {
+          height: 100% !important;
+        }
+        .textArea {
+          .date {
+          }
+          .goNews {
+            display: block !important;
+            text-align-last: center;
+            text-align: center;
+            .newsHoodTwo {
+              text-align: center !important;
+            }
+            .triangleBlue {
+              height: 35px !important; 
+              width: 35px !important; 
+            }
+          }
+        }
+      }
+    }
+    .owl-nav {
+      position: unset !important;
+      top: unset !important;
+      right: unset !important;
+      bottom: unset !important;
+      left: unset !important;
+      -webkit-transform: translateX(-50%);
+      transform: unset !important;
+      .owl-prev {
+        position: absolute !important;
+        top: 44% !important;
+        &:hover {
+        }
+      }
+      .owl-next {
+        position: absolute !important;
+        top: 44% !important;
+        right: 16px !important;
+        &:hover {
+        }
+      }
+    }
+  }
+
+  .sliderThree {
+    .container {
+      .row {
+        .col-12 {
+          .owlTwoHood {
+            p {
+              font-size: 20px !important;
+            }
+          }
+        }
+        .col-12 {
+          .owl-three {
+            position: relative !important ;
+            .item {
+              .cardspecial {
+                img {
+                }
+                .cardTExt {
+                  p {
+                  }
+                }
+              }
+            }
+            .owl-nav {
+              .owl-prev {
+                left: 20px !important;
+                &:hover {
+                }
+                span {
+                }
+              }
+              .owl-next {
+                right: 10px !important;
+                &:hover {
+                }
+                span {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   header {
     .navFirst {
       .contactArea {
@@ -1521,8 +1787,8 @@ body {
           align-items: center;
           padding-top: 30px;
           justify-content: space-between;
-          display: flex;
           width: 100% !important;
+          display: -webkit-box !important;
           place-content: center !important;
           p {
             font-size: 16px;
@@ -1744,8 +2010,10 @@ body {
             }
             .goNews {
               .newsHoodTwo {
+                font-size: 14px !important;
               }
               .triangleBlue {
+                font-size: 14px !important;
               }
             }
           }
@@ -1771,6 +2039,39 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  .owl-three {
+    .item {
+      display: block;
+      justify-content: center;
+      .cardspecial {
+        margin: 0px 60px !important;
+        img {
+        }
+        .cardTExt {
+          p {
+          }
+        }
+      }
+    }
+    .owl-nav {
+      top: 45% !important;
+      right: unset !important;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      display: flex !important;
+      gap: 82%;
+      .owl-prev {
+        &:hover {
+        }
+      }
+      .owl-next {
+        &:hover {
+        }
+      }
+    }
+  }
+
   header {
     .navFirst {
       .contactArea {

@@ -690,7 +690,7 @@
   }
   .mainHoodArea .mainHood {
     font-family: "Rajdhani-SB";
-    font-size: 36px;
+    font-size: 26px;
     padding-top: 30px;
     margin: 0px !important;
   }
@@ -721,8 +721,16 @@
     -ms-grid-columns: 1fr 1fr 1fr !important;
         grid-template-columns: 1fr 1fr 1fr !important;
   }
+  .camCardArea .HoodTwo p {
+    font-size: 26px !important;
+    height: 100%;
+  }
   .camCardArea .HoodTwo hr {
-    width: 58% !important;
+    width: 72% !important;
+    margin: 1.2rem 0rem;
+  }
+  .camCardArea .HoodTwo .specialW {
+    width: 69% !important;
   }
   .priceList .priceListArea {
     -ms-grid-rows: 1fr;
@@ -740,7 +748,10 @@
         grid-template-columns: 1fr 1fr !important;
   }
   .camCardArea .HoodTwo hr {
-    width: 44% !important;
+    width: 58% !important;
+  }
+  .camCardArea .HoodTwo .specialW {
+    width: 58% !important;
   }
   .mainHoodArea {
     margin-top: 94px;
